@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="/home/tanyu/hng_internship_repo/hng.tec_ContactForm/index.css">
         <title>HNG Internship</title>
     </head>
     <body>
@@ -8,15 +9,14 @@
         <form action="http://hng.com" >
            <label for="name">
                Full Name:
-               <br> <br>
-               <textarea name="name" cols="30" rows="2">Your Name</textarea>
+               <br>
+               <input class="boxsize" type="text" name="name" placeholder="Your Name" maxlength="100">
            </label>
-           <br> <br>
+           <br><br>
            <label for="email">
             Email-Address
             <br>
-               <textarea name="email" cols="30" rows="2">your@Example.com</textarea>
-           </label>
+            <input class="boxsize" type="text" name="email" placeholder="You@Example.com" maxlength="100">           </label>
            <p>
            <label for="message">
                Message
@@ -24,7 +24,7 @@
                <textarea name="message" cols="30" rows="10">message</textarea>
            </label>
         </p>
-        <input type="submit" value="submit" checked="checked">
+        <input class="submitbutton" type="submit">
         </form>
     </body>
 </html>
