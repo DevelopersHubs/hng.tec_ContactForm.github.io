@@ -1,0 +1,39 @@
+h1{
+    position: relative;
+    left: 200px;
+    color:blue;
+}
+h2{
+    font-size: 30px;
+}
+
+ body{
+     background-color: white;
+     background-image: url("../images/deco.jpg");
+     background-position: center;
+     font-size: 25px;
+     color: black;
+     margin: 260px;
+ }
+
+ .boxsize{
+     min-height: 50px;
+     min-width: 600px;
+     background-color:whitesmoke;
+     
+ }
+ .messageBox{
+
+    min-height: 130px;
+    min-width: 600px;
+ }
+
+ .submitbutton{
+     position: relative;
+     left: 500px;
+     color: blue;
+     min-height: 50px;
+     min-width: 100px;
+     color: yellow;
+     background-color: blue;
+ }
