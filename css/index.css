@@ -1,39 +1,125 @@
-h1{
+body{
+    margin:10x;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar{
+    width: 100%;
+    
+}
+#navbar ul{
+    list-style: none;
+    padding:10px;
+}#navbar img{
+    margin-right: 150px;
+    height: 30px;
+    margin-left: 40px;
+
+}
+#navbar li{
+    display: inline;
+    text-align: center;
+}
+#navbar img{
+       height: 30px;
+       /* padding-right: 10px; */
+    }
+#navbar a{
+    color: #333;
+    text-decoration: none;
+    padding-right: 20px;
+}
+#navbar a:hover{
+    color: blue;
+    text-decoration: none;
+}
+#container{
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+#main-heading{
     position: relative;
-    left: 200px;
-    color:blue;
+    left: 100px;
+    color: blue;
 }
-h2{
-    font-size: 30px;
+.my-form{
+    float: left;
+    width:50%;
+    margin-left:50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
-
- body{
-     background-color: white;
-     background-image: url("../images/deco.jpg");
-     background-position: center;
-     font-size: 25px;
-     color: black;
-     margin: 260px;
- }
-
- .boxsize{
-     min-height: 50px;
-     min-width: 600px;
-     background-color:whitesmoke;
-     
- }
- .messageBox{
-
-    min-height: 130px;
-    min-width: 600px;
- }
-
- .submitbutton{
-     position: relative;
-     left: 500px;
-     color: blue;
-     min-height: 50px;
-     min-width: 100px;
-     color: yellow;
-     background-color: blue;
- }
+.form-group{
+    margin-bottom: 15px;
+}
+.form-group label{
+     display: block;
+}
+.form-group input[type="text"]{
+    width: 70%;
+    height: 50px;
+    margin-bottom: 20px;
+}.form-group textarea{
+    width: 70%;
+    height: 100px;
+}
+.btn{
+    position: relative;
+    left: 425px;
+    
+} 
+.p-image{
+    margin-top: 0%;
+    width: 45%;
+    float:right;
+    box-sizing: border-box;
+    
+}
+#horizontal-line{
+    color: #333;
+}
+.container{
+    margin-bottom: 30px;
+    height: 100px;
+}
+.c-right{
+    
+    width: 100%;
+    height: 80px;
+    background-color:lightslategray;
+    margin-bottom: 0px;
+    float: inline-end;
+}
+.box{
+    float: left;
+    width: 33.3%;
+    border-width: 10px;
+    margin-bottom: 20px;
+    height: 60px;
+    }
+#box-1{
+    position: relative;
+    left:0px;
+}
+#box-3{
+    float: right;
+}
+hr{
+    width: 100%;
+    border-width: 2px;
+    border-color:#333;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.c-right img{
+    width: 100px;
+    height: 50px;
+    float: right;
+    color:#fff;
+    position: relative;
+    bottom: 40px;
+}.c-right p{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 20px;
+    font-size: x-large;
+    padding-top: 20px;
+}
